@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FavoriteCandy</title>
+    <link rel="stylesheet" href="css/doces.css">
+    <script src="js/doces.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="img/cupcakelogo.png" width="50" height="50" alt="imagem de um cupcake">
+            FavoriteCandy
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a class="header-nav-active" href="doces.html">Doces</a></li>
+                <li><a href="enviarReceita.html">Envie sua receita</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="main-title">Doces</h1>
+    <section class="news">
+        <article class="news-article">
+            <h2 class="news-article-title">Brigadeiro</h2>
+            <img src="img/brigadeiro.png" width="300" height="200" alt="imagem de um brigadeiro em um pote de vidro">
+            <button class="news-article-button" onclick="favoritar(this)" data-estado="inativo">♡</button>
+            <ul class="news-article-items">
+                <li>Doce tradicional brasileiro</li>
+                <li>Super fácil de fazer e ótimo para quando está com aquela vontade de comer doce</li>
+            </ul>
+            <a class="news-article-link" aria-label="Ler mais sobre brigadeiro">Ler mais</a>
+        </article>
+        <article class="news-article">
+            <h2 class="news-article-title">Panqueca americana</h2>
+            <img src="img/pancake.png" width="300" height="200" alt="">
+            <button class="news-article-button" title="favoritar" onclick="favoritar(this)">♡</button>
+            <ul class="news-article-items">
+                <li>Perfeitas para comer no café da manhã</li>
+                <li>Prático de fazer e fica perfeito com coberturas e frutas</li>
+            </ul>
+            <a class="news-article-link" aria-label="Ler mais sobre panqueca americana">Ler mais</a>
+        </article>
+    </section>
+</body>
+
+</html>
